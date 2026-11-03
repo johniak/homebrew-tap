@@ -1,30 +1,30 @@
 class Reviewonator < Formula
   desc "Local human-in-the-loop interface for AI-generated GitHub pull request reviews"
   homepage "https://github.com/johniak/reviewonator"
-  version "0.9.0"
+  version "0.9.1"
   license "MIT"
 
   depends_on "gh"
 
   on_macos do
     on_arm do
-      url "https://github.com/johniak/reviewonator/releases/download/v0.9.0/reviewonator-darwin-arm64.tar.gz"
-      sha256 "e9894dcc780004a240710626b98629de3cecc26ec12345d3959beba5dd5554bd"
+      url "https://github.com/johniak/reviewonator/releases/download/v0.9.1/reviewonator-darwin-arm64.tar.gz"
+      sha256 "efa8331aa9a14aa2af143f1954602bea65ae13ca3efc115ecaec184cf07e3789"
     end
     on_intel do
-      url "https://github.com/johniak/reviewonator/releases/download/v0.9.0/reviewonator-darwin-x64.tar.gz"
-      sha256 "b332c9f2133e3e8182d66db1715b9de70b598ac788890d723f6e457041142edb"
+      url "https://github.com/johniak/reviewonator/releases/download/v0.9.1/reviewonator-darwin-x64.tar.gz"
+      sha256 "59c0d8b251ee912735a02dc4446317b21e07b3bf3cd05b3fdba94f198f27c984"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/johniak/reviewonator/releases/download/v0.9.0/reviewonator-linux-arm64.tar.gz"
-      sha256 "2062d540fe75a6a0924b1a8549dec53204801ddcfa77641c18afba5ef06b7771"
+      url "https://github.com/johniak/reviewonator/releases/download/v0.9.1/reviewonator-linux-arm64.tar.gz"
+      sha256 "9691df539ebd94cb90accb9f39e3d7eab8b11086887c22be27fda5e198038f7f"
     end
     on_intel do
-      url "https://github.com/johniak/reviewonator/releases/download/v0.9.0/reviewonator-linux-x64.tar.gz"
-      sha256 "da74d6fb7d09ba3c730dd8dcc9e8b6fef33c3cec6cbbf2db508a2c08e30de06a"
+      url "https://github.com/johniak/reviewonator/releases/download/v0.9.1/reviewonator-linux-x64.tar.gz"
+      sha256 "67695d104a29db8855bdb39cd001af9c49fcf21b4221a73aff211aa1c07082bd"
     end
   end
 
